@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm create @quick-start/electron@latest . -- --template react-ts)",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:dribbble.com)",
+      "Bash(npx serve:*)"
+    ]
+  }
+}
